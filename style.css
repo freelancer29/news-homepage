@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 4rem;
+    max-width: 60rem;
+    padding-bottom: 2rem;
+}
+
+header {
+    display: flex;
+    gap: 33rem;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 1.53rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.text {
+    width: 18rem;
+    margin-top: -1rem;
+    /* background-color: blueviolet; */
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;   
+}
+
+h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin-top: 3rem;
+}
+
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main_container {
+    display: flex;
+    gap: 1.5rem;
+    height: 30rem;
+    margin-top: 0.5rem;
+}
+
+button {
+    padding: 0.7rem 2rem;
+    font-size: 12px;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.article {
+    display: flex;
+    height: 15rem;
+    gap: 3rem;
+}
+
+.web_three {
+    width: 70%;
+}
+
+p {
+    font-size: 15px;
+}
+
+.read_more {
+    margin-top: 1rem;
+    width: 19rem;
+}
+
+.read_more p {
+    font-size: 0.85rem;
+    color: hsl(233, 8%, 79%);
+}
+
+.new_container {
+    background-color: hsl(240, 100%, 5%);
+    width: 30%;
+    height: 29rem;
+    color: white;
+    padding: 1rem;
+}
+
+.new_container p {
+    color: hsl(233, 8%, 79%);
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    padding-bottom: 0.5rem;
+}
+
+.case {
+    border-bottom: 0.1px solid hsl(233, 8%, 79%);
+    margin-top: 2rem;
+}
+
+#case1 {
+    margin-top: -0.5rem;
+}
+
+#case3 {
+    border-bottom: none;
+}
+
+footer {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 25rem;
+}
+
+#footer_image {
+    width: 6rem;
+    height: 6rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    color: hsl(233, 8%, 79%);
+}
+
+h5 {
+    color: hsl(240, 100%, 5%);
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: -1.8rem;
+}
+
+.list_text p {
+    margin-top: -1.3rem;
+    font-size: 0.9rem;
+    color: hsl(233, 8%, 79%);
+}
+
+#list3 {
+    margin-left: -2rem;
+}
+
+#list2 {
+    margin-left: -1.85rem;
+}
